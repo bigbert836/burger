@@ -50,7 +50,7 @@ var orm = {
   },
   // update selected burger in the db
   update: function(table, objColVals, condition, cb) {
-    var queryString = "UPDATE " + table " SET ";
+    var queryString = "UPDATE " + table + " SET ";
     queryString += objToSql(objColVals);
     queryString += " WHERE ";
     queryString += condition;
