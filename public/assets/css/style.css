@@ -1,0 +1,22 @@
+button,
+pre,
+input {
+	margin: 5px;
+}
+
+pre {
+	background-color: lightgreen;
+}
+
+.col-xs-6 .form-control {
+	background-color: pink;
+	text-align: center;
+}
+
+#enter-text {
+	background-color: white;
+}
+
+img {
+	width: 50%;
+}
